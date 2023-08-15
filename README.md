@@ -33,3 +33,5 @@ Note: 192.168.10.1 is the LAN IP of the router.
 6. Flash the latest stable version, "P5-R21-1.15.15-20230616-112055-sysupgrade.bin"
 7. After flashing the stable version, enable cellular, configure APN & confirm the module version.
 8. Finish!
+
+Reference: https://cnquectel-my.sharepoint.com/:b:/g/personal/ae-fae_quectel_com/EY86kgo8vwxEnbr6lF7KN-sBhjTFl8x8Ne-ImXINJY2dNA?e=4QgEC6
