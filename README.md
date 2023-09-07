@@ -15,14 +15,12 @@ Caution:
 2. Please use the files that Cudy provides to you and not those from Quectel, as Cudy has tested the firmware provided on their end and cannot guarantee the other versions you get from other sources.
 
 
-A. Preparation:
-
-Modem:
+A. Preparation for Modem:
 1. Login to Cudy.net
 2. Go to General Settings
 3. Under Cellular>APN, Toggle to disable cellular.
 
-Ubuntu:
+B. Preparation for Ubuntu:
 1. Download the zip file first and extract it.
 2. Open terminal and change directory to the folder location (in my case, it was located at /home/"Username Here"/Desktop/Upgrade_RM520)
 3. Copy "qfirehose" and "the latest Quectel Firmware" to the Ubuntu directory /tmp/ by running the following command:
@@ -31,7 +29,7 @@ Ubuntu:
 4. Change directory to /tmp/
 "cd /tmp"
 
-B. Install Beta Firmware and Modem
+C. Install Beta Firmware and Modem
 1. Access the web interface, go to General Settings>Cellular>APN, disable it, and save and apply the settings.
 2. Go to Advanced Settings>Firmware and upgrade "P5-R21-1.16.1beta-20230731-115435-upgrade-module".
 3. Once upgraded to the latest beta firmware, go back to the terminal and type the following:
