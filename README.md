@@ -5,20 +5,28 @@ NOTE: To clarify, the Cudy P5's firmware and the Quectel RM520N-GL modem firmwar
 Requirements:
 1. Linux (Ubuntu in my case; It doesn't matter if via a Virtual Machine)
 2. Download the zip file and extract it to your desktop
-https://www.mediafire.com/file/q83yxo08tubee97/Upgrade_RM520.zip/file
-3. Patience
+   [https://www.mediafire.com/file/q83yxo08tubee97/Upgrade_RM520.zip/file](https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file)
+3. Download the latest Quectel Firmware
+   [https://www.mediafire.com/folder/l0ix2ptyq8vhz/Quectel_RM520N-GL_Firmware](https://www.mediafire.com/folder/l0ix2ptyq8vhz/Quectel_RM520N-GL_Firmware)
+4. Patience
 
 Caution:
-1. Use an Ethernet Cable and ensure that the power supply for both the PC and the modem/Router is stable (use a UPS!). If the upgrade fails, the module will not be able to recover anymore.
+1. Use an Ethernet Cable and ensure that the power supply for both the PC and the modem/Router is stable (use a UPS!). If the upgrade fails, the module will not be able to recover.
 2. Please use the files that Cudy provides to you and not those from Quectel, as Cudy has tested the firmware provided on their end and cannot guarantee the other versions you get from other sources.
 
 
 A. Preparation:
+Modem:
+1. Login to Cudy.net
+2. Go to General Settings
+3. Under Cellular>APN, Toggle to disable cellular.
+
+Ubuntu:
 1. Download the zip file first and extract it.
-2. Open terminal and change directory to the folder location (in my case, it was located at /home/Desktop/user/Upgrade_RM520)
-3. Copy "qfirehose" and "RM520NGLAAR01A07M4G_01.200.01.200.zip" to the Ubuntu directory /tmp/ by running the following command:
-"chmod a+x /tmp/qfirehose
-unzip /tmp/RM520NGLAAR01A07M4G_01.200.01.200.zip -d /tmp/RM520-image"
+2. Open terminal and change directory to the folder location (in my case, it was located at /home/"Username Here"/Desktop/Upgrade_RM520)
+3. Copy "qfirehose" and "the latest Quectel Firmware" to the Ubuntu directory /tmp/ by running the following command:
+"chmod a+x /tmp/qfirehose"
+"unzip /tmp/Latest_Quectel_Firmware_Here.zip -d /tmp/RM520-image"
 4. Change directory to /tmp/
 "cd /tmp"
 
