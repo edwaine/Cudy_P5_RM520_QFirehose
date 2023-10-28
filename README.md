@@ -33,13 +33,15 @@ B. Preparation for Ubuntu:
       "unzip /tmp/Latest_Quectel_Firmware_Here.zip -d /tmp/RM520-image"
       5. Change directory to /tmp/
       "cd /tmp"
+      6. Change file permissions by typing "chmod ugo+x QFirehose"
+      7. Test if QFirehose is accessible by typing "./QFirehose -p"
 
 C. Install Beta Firmware and Modem
 
       1. Go to Advanced Settings>Firmware and upgrade "P5-R21-1.16.1beta-20230731-115435-upgrade-module".
       2. Once upgraded to the latest beta firmware, go back to the terminal and type the following:
       "./QFirehose -f /tmp/RM520-image/ -p 192.168.10.1:9008"
-      Note: 192.168.10.1 is the LAN IP of the router.
+      Note: 192.168.10.1 is the default LAN IP of the router. Change this if you modify your DHCP Server.
       3. If you see at the end of the terminal "Upgrade Module successfully", it means the upgrade process is completed.
       4. Reboot the router
       5. Flash the latest stable version, "P5-R21-1.15.15-20230616-112055-sysupgrade.bin"
