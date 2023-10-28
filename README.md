@@ -29,7 +29,7 @@ B. Preparation for Ubuntu:
       2. Open the terminal, type "sudo -s" and enter the password.
       3. Change directory to the folder location (in my case, it was located at /home/"Username Here"/Desktop/Upgrade_RM520)
       4. Copy "qfirehose" and "the latest Quectel Firmware" to the Ubuntu directory /tmp/ by running the following command:
-      "chmod a+x /tmp/qfirehose"
+      "chmod a+x /tmp/QFirehose"
       "unzip /tmp/Latest_Quectel_Firmware_Here.zip -d /tmp/RM520-image"
       5. Change directory to /tmp/
       "cd /tmp"
@@ -38,7 +38,7 @@ C. Install Beta Firmware and Modem
 
       1. Go to Advanced Settings>Firmware and upgrade "P5-R21-1.16.1beta-20230731-115435-upgrade-module".
       2. Once upgraded to the latest beta firmware, go back to the terminal and type the following:
-      "./qfirehose -f /tmp/RM520-image/ -p 192.168.10.1:9008"
+      "./QFirehose -f /tmp/RM520-image/ -p 192.168.10.1:9008"
       Note: 192.168.10.1 is the LAN IP of the router.
       3. If you see at the end of the terminal "Upgrade Module successfully", it means the upgrade process is completed.
       4. Reboot the router
