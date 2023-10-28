@@ -36,15 +36,14 @@ B. Preparation for Ubuntu:
 
 C. Install Beta Firmware and Modem
 
-      1. Access the web interface, go to General Settings>Cellular>APN, disable it, and save and apply the settings.
-      2. Go to Advanced Settings>Firmware and upgrade "P5-R21-1.16.1beta-20230731-115435-upgrade-module".
-      3. Once upgraded to the latest beta firmware, go back to the terminal and type the following:
+      1. Go to Advanced Settings>Firmware and upgrade "P5-R21-1.16.1beta-20230731-115435-upgrade-module".
+      2. Once upgraded to the latest beta firmware, go back to the terminal and type the following:
       "./qfirehose -f /tmp/RM520-image/ -p 192.168.10.1:9008"
       Note: 192.168.10.1 is the LAN IP of the router.
-      4. If you see at the end of the terminal "Upgrade Module successfully", it means the upgrade process is completed.
-      5. Reboot the router
-      6. Flash the latest stable version, "P5-R21-1.15.15-20230616-112055-sysupgrade.bin"
-      7. After flashing the stable version, enable cellular, configure APN & confirm the module version.
-      8. Finish!
+      3. If you see at the end of the terminal "Upgrade Module successfully", it means the upgrade process is completed.
+      4. Reboot the router
+      5. Flash the latest stable version, "P5-R21-1.15.15-20230616-112055-sysupgrade.bin"
+      6. After flashing the stable version, enable cellular, configure APN & confirm the module version.
+      7. Finish!
 
 Reference: https://cnquectel-my.sharepoint.com/:b:/g/personal/ae-fae_quectel_com/EY86kgo8vwxEnbr6lF7KN-sBhjTFl8x8Ne-ImXINJY2dNA?e=4QgEC6
