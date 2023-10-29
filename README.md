@@ -25,11 +25,11 @@ A. Preparation for Modem:
 
 B. Preparation for Ubuntu:
 
-      1. Download "Upgrade_RM520.zip" and extract it to your desktop. Download "the latest Quectel Firmware" and place it to your desktop.
+      1. Download "Upgrade_RM520.zip" and extract it to your desktop. Download "the latest Quectel Firmware" and place it on your desktop.
       2. Copy "QFirehose" to the Ubuntu directory /tmp/ by going to "Files App>Other Locations>Ubuntu>tmp"
-      3. Create a new Folder named "RM520-image" on the /tmp/ folder and extract "the latest Quectel Firmware" on the same directory 
+      3. Create a new Folder named "RM520-image" on the /tmp/ folder and extract "the latest Quectel Firmware" on the "RM520-image" folder 
       4. Open the terminal, type "sudo -s" and enter the password.
-      5. Change directory to the folder location by typing "cd /tmp"
+      5. Change the directory location to /tmp/ by typing "cd /tmp"
       6. Change QFirehose file permissions by typing "chmod ugo+x QFirehose"
       7. Test if QFirehose is accessible by typing "./QFirehose -p"
 
