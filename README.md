@@ -8,7 +8,7 @@ Requirements:
       2. Update first your WSL using Windows Update
       3. Download the Ubuntu app from the Microsoft Store:
       https://www.microsoft.com/p/ubuntu/9pdxgncfsczv
-      4. Or use Ubuntu on a Virtual Machine (VMWare or other virtual machine apps)
+      4. Or use Ubuntu on a physical device or a Virtual Machine (VMWare or other virtual machine apps)
       5. Download the zip file and extract it to your desktop
       https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file
       6. Download the latest Quectel Firmware
