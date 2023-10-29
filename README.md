@@ -6,7 +6,7 @@ Requirements:
 
       1. Linux (Ubuntu in my case; It doesn't matter if via a Virtual Machine)
       2. Download the zip file and extract it to your desktop
-      [https://www.mediafire.com/file/q83yxo08tubee97/Upgrade_RM520.zip/file](https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file)
+      [https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file](https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file)
       3. Download the latest Quectel Firmware
       [https://www.mediafire.com/folder/l0ix2ptyq8vhz/Quectel_RM520N-GL_Firmware](https://www.mediafire.com/folder/l0ix2ptyq8vhz/Quectel_RM520N-GL_Firmware)
       4. Patience
