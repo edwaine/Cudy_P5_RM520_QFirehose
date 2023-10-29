@@ -26,7 +26,7 @@ A. Preparation for Modem:
       2. Go to General Settings
       3. Under Cellular>APN, toggle to disable cellular.
 
-B. Preparation for Ubuntu WSL:
+B. Preparation for Windows:
 
       1. Download "Upgrade_RM520.zip" and extract it to your desktop. Download "the latest Quectel Firmware" and place it on your desktop.
       2. Copy "QFirehose" to the Ubuntu directory /tmp/ by going to "Linux>Ubuntu>tmp"
