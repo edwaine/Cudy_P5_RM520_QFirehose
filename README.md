@@ -61,6 +61,7 @@ D. Install Beta Firmware and Modem
       7. Finish!
 
 NOTE:
-      1.16.1 beta will only enable QFirehose on Cudy P5's side. Cellular will never work. In order for you to use cellular, revert back to the latest stable version.
+      1. 1.16.1 beta will only enable QFirehose on Cudy P5's side. Cellular will never work. In order for you to use cellular, revert back to the latest stable version.
+      2. If you encounter any random disconnection issues using 1.15.15, either downgrade back to 1.14.29 or backup your settings and factory reset your modem.
 
 Reference: https://cnquectel-my.sharepoint.com/:b:/g/personal/ae-fae_quectel_com/EY86kgo8vwxEnbr6lF7KN-sBhjTFl8x8Ne-ImXINJY2dNA?e=4QgEC6
