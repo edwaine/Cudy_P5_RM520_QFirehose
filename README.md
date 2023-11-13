@@ -59,8 +59,9 @@ D. Install Beta Firmware and Modem
       5. Flash the latest stable version, "P5-R21-1.15.15-20230616-112055-sysupgrade.bin"
       6. After flashing the stable version, enable cellular, configure APN, and confirm the module version.
       7. Finish!
-
+      
 NOTE:
+
       1. 1.16.1 beta will only enable QFirehose on Cudy P5's side. Cellular will never work. In order for you to use cellular, revert back to the latest stable version.
       2. If you encounter any random disconnection issues using 1.15.15, either downgrade back to 1.14.29 or backup your settings and factory reset your modem.
 
