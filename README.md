@@ -12,7 +12,7 @@ Requirements:
       https://www.microsoft.com/p/ubuntu/9pdxgncfsczv
       4. Or use Ubuntu on a physical device or a Virtual Machine (VMWare or other virtual machine apps)
       5. Download the zip file and extract it to your desktop
-      https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file
+      [https://www.mediafire.com/file/8h45jt668wlxx06/Upgrade_RM520.zip/file](https://www.mediafire.com/file/y1b9r9v0exwhicf/Upgrade+RM520.zip/file)
       6. Download the latest Quectel Firmware
       https://www.mediafire.com/folder/l0ix2ptyq8vhz/Quectel_RM520N-GL_Firmware
       7. Patience
@@ -52,19 +52,19 @@ C. Preparation for Ubuntu:
       
 D. Install Beta Firmware and Modem
 
-      1. Go to Advanced Settings>Firmware and upgrade "P5-R21-1.16.1beta-20230731-115435-upgrade-module".
+      1. Go to Advanced Settings>Firmware and upgrade using the file "P5-R21-2.1.16Beta-20240912-141445-sysupgrade-upgrade-module.bin".
       2. Once upgraded to the latest beta firmware, go back to the Ubuntu terminal and type the following:
       "./QFirehose -f /tmp/RM520-image/ -p 192.168.10.1:9008"
       Note: 192.168.10.1 is the default LAN IP of the router. Change this if you modify your DHCP server.
       3. If you see at the end of the terminal "Upgrade Module successfully", it means the upgrade process has been completed.
       4. Reboot the router
-      5. Flash the latest stable version, "P5-R21-1.15.15-20230616-112055-sysupgrade.bin"
-      6. After flashing the stable version, enable cellular, configure APN, and confirm the module version.
+      5. Flash the latest stable version from https://www.cudy.com/pages/download-center/p5-1-0
+      6. After flashing the stable version, enable cellular, configure APN, and confirm the module version by going to AT Command and type "AT+GMR"
       7. Finish!
       
 NOTE:
 
-      1. 1.16.1 beta will only enable QFirehose on Cudy P5's side. Cellular will never work. In order for you to use cellular, revert back to the latest stable version.
-      2. If you encounter any random disconnection issues using 1.15.15, either downgrade back to 1.14.29 or backup your settings and factory reset your modem.
+      1. The beta firmware will only enable QFirehose on Cudy P5's side. Cellular will never work. In order for you to use cellular, revert back to the latest stable version.
+      2. If you encounter any issues on the P5-R21-2.1.16Beta-20240912-141445-sysupgrade-upgrade-module.bin modem firmware, you can use a much older beta firmware named "P5-R21-1.16.1beta-20230731-115435-upgrade-module.bin".
 
 Reference: https://cnquectel-my.sharepoint.com/:b:/g/personal/ae-fae_quectel_com/EY86kgo8vwxEnbr6lF7KN-sBhjTFl8x8Ne-ImXINJY2dNA?e=4QgEC6
